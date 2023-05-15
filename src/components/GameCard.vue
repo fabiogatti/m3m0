@@ -25,8 +25,8 @@ defineProps({
     @apply border-2; 
     @apply border-black;
     @apply absolute;
+    @apply object-cover;
     transition: all 0.45s;
-    object-fit: fill;
     transform-style: preserve-3d;
 }
 </style>
